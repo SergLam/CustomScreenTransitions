@@ -10,8 +10,8 @@ import UIKit
 
 class ActionViewController: UIViewController {
 
-    @IBAction func dismiss(sender: UIButton) {
-        dismissViewControllerAnimated(true, completion: nil)
+    @IBAction func dismissAction(_ sender: UIButton) {
+        dismiss(animated: true, completion: nil)
     }
 
 }
