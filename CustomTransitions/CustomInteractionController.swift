@@ -8,7 +8,8 @@
 
 import UIKit
 
-class CustomInteractionController: UIPercentDrivenInteractiveTransition {
+final class CustomInteractionController: UIPercentDrivenInteractiveTransition {
+    
     var navigationController: UINavigationController!
     var shouldCompleteTransition = false
     var transitionInProgress = false

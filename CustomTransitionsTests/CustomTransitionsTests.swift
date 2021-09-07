@@ -9,7 +9,7 @@
 import UIKit
 import XCTest
 
-class CustomTransitionsTests: XCTestCase {
+final class CustomTransitionsTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

@@ -8,9 +8,9 @@
 
 import UIKit
 
-class ActionViewController: UIViewController {
+final class ActionViewController: UIViewController {
 
-    @IBAction func dismissAction(_ sender: UIButton) {
+    @IBAction private func dismissAction(_ sender: UIButton) {
         dismiss(animated: true, completion: nil)
     }
 

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CustomNavigationAnimationController: NSObject, UIViewControllerAnimatedTransitioning {
+final class CustomNavigationAnimationController: NSObject, UIViewControllerAnimatedTransitioning {
     
     var reverse: Bool = false
     

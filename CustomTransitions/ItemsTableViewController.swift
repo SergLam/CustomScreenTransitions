@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ItemsTableViewController: UITableViewController, UIViewControllerTransitioningDelegate, UINavigationControllerDelegate {
+final class ItemsTableViewController: UITableViewController, UIViewControllerTransitioningDelegate, UINavigationControllerDelegate {
     
     let customPresentAnimationController = CustomPresentAnimationController()
     let customDismissAnimationController = CustomDismissAnimationController()
